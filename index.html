@@ -15,12 +15,15 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
@@ -259,6 +262,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -266,6 +332,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -339,25 +415,25 @@ $(document).ready(function () {
 </div>
 
 
-<div style="display: flex; width: 100%">
-<div>
-<h2 id="hello">Hello!</h2>
+<div id="hello" class="section level2">
+<h2>Hello!</h2>
 <p><img src="images/Farrell_head.jpg" align="left" height="150"/> My name is Kait (she/her), and I am an ecologist and educator. In my work as the undergraduate ecology lab coordinator at the <a href="http://ecology.uga.edu/">Odum School of Ecology</a> at the University of Georgia, I develop hands-on lab activities to engage both science majors and non-majors with ecological concepts and skills. You can learn more about the courses I teach and coordinate on the <a href="https://farrellkj2.github.io/teaching.html">Teaching</a> tab.</p>
 <p>My research background is in freshwater ecosystem ecology. I earned my Ph.D. in Ecology in May 2017 from the University of Georgia, and from 2017-2019, I was a postdoctoral associate at Virginia Tech, where I worked on lake modeling and developing teaching modules to bring “big data” concepts into undergraduate ecology classes. To learn about my previous research, please visit my <a href="https://farrellkj2.github.io/research.html">Research</a> and <a href="https://farrellkj2.github.io/pubs.html">Publications</a> pages.</p>
 </div>
-<div>
-<h2 id="keep-in-touch">Keep in touch:</h2>
+<div id="keep-in-touch" class="section level2">
+<h2>Keep in touch:</h2>
 <p><img src="images/mail.png" align="left" height="30"/> <a href="mailto:kfarrell@uga.edu">kfarrell ‘at’ uga.edu</a><br />
 <img src="images/github.png" align="left" height="30"/> <a href="https://github.com/farrellkj2">GitHub</a><br />
 <img src="images/RG.png" align="left" height="30"/> <a href="https://www.researchgate.net/profile/Kaitlin_Farrell">ResearchGate</a> <img src="images/orcid.png" align="left" height="30"/> <a href="https://orcid.org/0000-0002-4709-7749">ORCiD</a><br />
 <img src="images/twitter.png" align="left" height="30"/> <a href="https://twitter.com/farrellkj2">Twitter</a></p>
-</div>
-</div>
 <hr />
 <p>Webpage devloped using <a href="https://github.com/privefl/rmarkdown-website-template" target="_blank">rmarkdown website template</a> developed by <a href="https://github.com/privefl" target="_blank">privefl</a></p>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -390,6 +466,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
