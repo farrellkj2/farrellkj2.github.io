@@ -1,0 +1,79 @@
+---
+title: "Publications"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Peer-Reviewed Publications  
+### 2021    
+* **Farrell, K.J.**, K.C. Weathers, S.H. Sparks, J.A. Brentrup, C.C. Carey, M.C. Dietze, J.R. Foster, K.L. Grayson, J.H. Matthes, & M.D. SanClements. 2021. Training macrosystems scientists requires both interpersonal and technical skills. *Frontiers in Ecology and the Environment* in press. Manuscript ID: FEE19-0095.R2
+
+### 2020   
+* Kincaid, D.W., W.S. Beck, J.E. Brandt, M.M. Brisbin, **K.J. Farrell**, K.L. Hondula, E.I. Larson, & A.J. Shogren. 2020. Wikipedia can help resolve information inequality in the aquatic sciences. *Limnology and Oceanography Letters* in press. DOI: [10.1002/lol2.10168](https://doi.org/10.1002/lol2.10168)
+
+* Creed, R.P, J. Skelton, **K.J. Farrell**, & B.L. Brown. 2020. Strong effects of a mutualism on freshwater community structure. *Ecology* in press. DOI: [10.1002/ecy.3225](https://doi.org/10.1002/ecy.3225)
+
+* Carey, C.C., **K.J. Farrell**, A.G. Hounshell, & K. O'Connell. 2020. Macrosystems EDDIE teaching modules significantly increase ecology students' proficiency and confidence working with ecosystem models and use of systems thinking. *Ecology and Evolution* in press. DOI: [10.1002/ece3.6757](https://doi.org/10.1002/ece3.6757)
+
+* Henson, V.R., K.M. Cobourn, K.C. Weathers, C.C. Carey, **K.J. Farrell**, J.L. Klug, M.G. Sorice, N.K. Ward, & W. Weng. 2020. A practical guide for managing interdisciplinary teams: lessons learned from coupled natural and human systems research. *Social Sciences* 9: 119. DOI: [10.3390/socsci9070119](https://doi.org/10.3390/socsci9070119)
+
+* **Farrell, K.J.**, N.K. Ward, A.I. Krinos, P.C. Hanson, V. Daneshmand, R.J. Figueiredo, & C.C. Carey. 2020. Ecosystem-scale nutrient cycling responses to increasing air temperatures vary with lake trophic state. *Ecological Modelling* 430: 109134. DOI: [10.1016/j.ecolmodel.2020.109134](https://doi.org/10.1016/j.ecolmodel.2020.109134)
+
+* Weng, W., K.J. Boyle, **K.J. Farrell**, C.C. Carey, K.M. Cobourn, H.A. Dugan, P.C. Hanson, N.K. Ward, & K.C. Weathers. 2020. Coupling natural and human models in the context of a lake ecosystem: Lake Mendota, Wisconsin, USA. *Ecological Economics* 169: 106556. DOI: [10.1016/j.ecolecon.2019.106556](https://www.sciencedirect.com/science/article/pii/S0921800919304549?via%3Dihub)
+
+### 2019  
+* Carey, C.C., N.K. Ward, **K.J. Farrell**, M.E. Lofton, A.I. KrinosU, R.P. McClure, K.C. Subratie, R.J. Figueiredo, J.P. Doubek, P.C. Hanson, P. Papadopoulos, & P. Arzberger. 2019. Enhancing collaboration between ecologists and computer scientists: lessons learned and recommendations for a path forward. Ecosphere 10: e02753. DOI: 10.1002/ecs2.2753
+
+* **Farrell, K.J.**, A.N. Cramer, K.L. Hondula, S.K. Thompson, & J.A. Zwart. 2019. Support of early-career researchers supports the future of ASLO. Limnology and Oceanography Bulletin 28: 34. DOI: 10.1002/lob.10295
+
+### 2018  
+* McCullough, I.M., H.A. Dugan, **K.J. Farrell**, A.M. Morales-Williams, Z. Ouyang, D. Roberts, F. Scordo, S.L. Bartlett, S.M. Burke, J.P. Doubek, F.E. Krivak-Tetley, N.K. Skaff, J.C. Summers, K.C. Weathers, & P.C. Hanson. 2018. Dynamic modeling of organic carbon fates in lake ecosystems. Ecological Modelling 386: 71-82. DOI: 10.1016/j.ecolmodel.2018.08.009
+
+* **Farrell, K.J.**, & C.C. Carey. 2018. Power, pitfalls, and potential for integrating computational literacy into undergraduate ecology courses. Ecology and Evolution 8: 7744-7751. DOI: 10.1002/ece3.4363
+
+* Song, C., W.K. Dodds, J. Rüegg, A. Argerich, C.L. Baker, W.B. Bowden, M.M. Douglas, **K.J. Farrell**, M.B. Flinn, E.A. Garcia, A.M. Helton, T.K. Harms, S. Jia, J.B. Jones, L.E. Koenig, J.S. Kominoski, W.H. McDowell, D. McMaster, S.P. Parker, A.D. Rosemond, C.M. Ruffing, K.R. Sheehan, M.T. Trentman, M.R. Whiles, W.M. Wollheim, & F. Ballantyne IV. 2018. Continental-scale decrease in net primary productivity in streams due to climate warming. Nature Geoscience 11: 415-420. DOI: 10.1038/s41561-018-0125-5. 
+  + Press: Science Daily // Companion article: Heffernan 2018 "Stream metabolism heats up"  
+
+* Cobourn, K.M., C.C. Carey, K. Boyle, C. Duffy, H.A. Dugan, **K.J. Farrell**, L. Fitchett, P.C. Hanson, J.A. Hart, V.R. Henson, A.L. Hetherington, A.R. Kemanian, L.G. Rudstam, L. Shu, P.A. Soranno, M. Sorice, J. Stachelek, N.K. Ward, K.C. Weathers, W. Weng, & Y. Zhang. 2018. From concept to practice to policy: modeling coupled natural and human systems in lake catchments. Ecosphere 9: e02209. DOI: 10.1002/ecs2.2209.  
+  + Press: VT News  
+
+* **Farrell, K.J.**, A.D. Rosemond, J.S. Kominoski, S.M. Bonjour, J. Rüegg, L.E. Koenig, C.L. Baker, M.T. Trentman, & T.K. Harms. 2018. Variation in detrital resource stoichiometry signals differential carbon to nutrient limitation for stream consumers across biomes. Ecosystems 21: 1676-1691. DOI: 10.1007%2Fs10021-018-0247-z.
+    + Press: Ratios Matter newsletter  
+
+* Engel, F., **K.J. Farrell**, I.M. McCullough, F. Scordo, B.A. Denfeld, H.A. Dugan, E. de Eyto, P.C. Hanson, R.P. McClure, P. Nõges, T. Nõges, E. Ryder, K.C. Weathers, & G.A. Weyhenmeyer. 2018. A lake classification concept for a more precise estimate of the dissolved inorganic carbon export from terrestrial ecosystems to inland waters. The Science of Nature 105: 25. DOI: 10.1007/s00114-018-1547-z.
+
+### 2017  
+* Dugan, H.A., S.L. Bartlett, S.M. Burke, J.P. Doubek, F.E. Krivak-Tetley, N.K. Skaff, J.C. Summers, **K.J. Farrell**, I.M. McCullough, A.M. Morales-Williams, D. Roberts, F. Scordo, Z. Ouyang, P.C. Hanson, & K.C. Weathers. 2017. Salting our freshwater lakes. Proceedings of the National Academy of Sciences 114: 4453-4458. Link
+  + Press: Washington Post, Daily Mail Online, Popular Science
+
+### 2016  
+* Rüegg, J., W.K. Dodds, M.D. Daniels, K.R. Sheehan, C.L. Baker, W.B. Bowden, **K.J. Farrell**, M.B. Flinn, T.K. Harms, J.B. Jones, & L.E. Koenig. 2016. Baseflow physical characteristics differ at multiple spatial scales in stream networks across diverse biomes. Landscape Ecology 31: 119-136. Link
+
+### 2014  
+* **Farrell, K.J.**, R.P. Creed, & B.L. Brown. 2014. Reduced densities of ectosymbiotic worms (Annelida: Branchiobdellida) on reproducing female crayfish. Southeastern Naturalist 13: 523-529. Link
+
+* **Farrell, K.J.**, R.P. Creed, & B.L. Brown. 2014. Preventing overexploitation in a mutualism: Partner regulation in the crayfish-branchiobdellid symbiosis. Oecologia 174: 501-510. Link
+
+### 2013  
+* Skelton, J., **K.J. Farrell**, R.P. Creed, B.W. Williams, C. Ames, B.S. Helms, J. Stoekel, & B.L. Brown. 2013. Servants, scoundrels, and hitchhikers: current understanding of the complex interactions between crayfish and their ectosymbiotic worms (Branchiobdellida). Freshwater Science 32: 1345-1357. Link​
+
+### 2012  
+* Brown, B.L., R.P. Creed, J. Skelton, M.R. Rollins & **K.J. Farrell**. 2012. The fine line between mutualism and parasitism: Complex effects in a cleaning symbiosis demonstrated by multiple field experiments. Oecologia 170: 199-207. Link
+
+## Published Teaching Modules  
+* Carey, C.C., **K.J. Farrell**, & A.G. Hounshell. Macrosystems EDDIE Module 4: Macro-Scale Feedbacks. Environmental Data Initiative. DOI: ​10.6073/pasta/c2cabba0b755d852dabe74d181e2dc28
+
+* **Farrell, K.J.**, & C.C. Carey. 2019. Macrosystems EDDIE Module 3: Teleconnections. Environmental Data Initiative. DOI: 10.6073/pasta/89ffc527545f581290a7c19c5cbb7163
+
+* Carey, C.C., & **K.J. Farrell**. 2019. Macrosystems EDDIE Module 2: Cross-Scale Interactions. Environmental Data Initiative. DOI: ​10.6073/pasta/28f233002e2e1b6c8d412992e378358f
+Reviewed and accepted into the National Association of Geoscience Teachers On the Cutting Edge Exemplary Teaching Activity collection
+
+* Carey, C.C., S. Aditya, K. Subratie, R. Figueiredo, & **K.J. Farrell**. 2018. Macrosystems EDDIE Module 1: Climate Change Effects on Lake Temperatures. Environmental Data Initiative. DOI: ​10.6073/pasta/f7c4c245f495d859dcaa4ff6794d1fac
+
+## Published Data Products  
+* Carey C.C., M.E. Lofton, A.B. Gerling, R.P. McClure, J.P. Doubek, B.R. Niederlehner, & **K.J. Farrell**. 2019. Water chemistry time series for Beaverdam Reservoir, Carvins Cove Reservoir, Falling Creek Reservoir, Gatewood Reservoir, and Spring Hollow Reservoir in southwestern Virginia, USA 2013-2018. Environmental Data Initiative. DOI: 10.6073/pasta/08a8d297003c8e8593f888980f52bbcf
+
+* Carey C.C., A.B. Gerling, J.P. Doubek, K.D. Hamre, R.P. McClure, M.E. Lofton, & **K.J. Farrell. 2019**. Secchi depth data and discrete depth profiles of photosynthetically active radiation, temperature, dissolved oxygen, and pH for Beaverdam Reservoir, Carvins Cove Reservoir, Falling Creek Reservoir, Gatewood Reservoir, and Spring Hollow Reservoir in southwestern Virginia, USA 2013-2018. Environmental Data Initiative. DOI: 10.6073/pasta/e840c6c921afb43c326111b525de62b2

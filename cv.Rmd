@@ -1,0 +1,7 @@
+---
+title: "CV"
+---
+
+Click the link below to download a PDF of my CV.
+
+<a href="Farrell_CV_20210517.pdf#" class="download" title="Farrell_CV_17May2021">Download CV</a>			
