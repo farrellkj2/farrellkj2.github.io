@@ -6,7 +6,7 @@ output:
      # in_header: ["images/home_header.html"]
 ---
 
-:::: {style="display: flex; width: 80%"}
+:::: {style="display: flex; width: 100%"}
 
 ::: {}
 ## Hello!
