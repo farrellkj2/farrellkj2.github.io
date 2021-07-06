@@ -25,3 +25,4 @@ navbar:
 output:
   html_document:
     theme: cerulean
+    self_contained: no
