@@ -22,11 +22,7 @@ navbar:
       href: https://github.com/farrellkj2
     - icon: fa-twitter-square
       href: https://twitter.com/farrellkj2
-    - icon: fab fa-researchgate
-      href: https://www.researchgate.net/profile/Kaitlin_Farrell
-    - icon: 'google-scholar'
-      href: https://scholar.google.com/citations?user=3fofYzcAAAAJ&hl=en&authuser=1
 output:
   html_document:
-    theme: jekyll-theme-minimal
+    theme: cosmo
     highlight: textmate
