@@ -25,6 +25,3 @@ navbar:
 output:
   html_document:
     theme: readable
-    highlight: default
-    lib_dir: site_libs
-    self_contained: no
