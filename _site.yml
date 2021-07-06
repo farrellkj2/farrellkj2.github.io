@@ -12,7 +12,7 @@ navbar:
       href: about.html
     - text: "CV"
       #icon: fa-file-pdf-o
-      href: cv.html
+      href: Farrell_CV_20210517.pdf
     - text: "Publications"
       href: pubs.html
   right:
