@@ -5,13 +5,10 @@ navbar:
   type: inverse
   left:
     - text: "Home"
-    #  #icon: fa-home
       href: index.html
     - text: "About"
-      #icon: fa-user 
       href: about.html
     - text: "CV"
-      #icon: fa-file-pdf-o
       href: cv.html
     - text: "Publications"
       href: pubs.html
@@ -20,7 +17,7 @@ navbar:
       href: mailto:kfarrell@uga.edu
     - icon: fa-github
       href: https://github.com/farrellkj2
-    - icon: fa-twitter-square
+    - icon: fa-twitter
       href: https://twitter.com/farrellkj2
 output:
   html_document:
