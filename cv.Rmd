@@ -4,15 +4,15 @@ title: "CV"
 
 Click the link below to download a PDF of my CV.
 
-<a href="Farrell_CV_20210517.pdf#" class="download" title="Farrell_CV_17May2021">Download CV</a>			
+<img src="./images/cv.png"><a href="Farrell_CV_20210517.pdf#" class="download" title="Farrell_CV_17May2021">Download CV</a>			
 
 You can also find me/learn more about my research on:  
 
-* <img src="./images/github.png">  [GitHub](https://github.com/farrellkj2)   
+<img src="./images/github.png">  [GitHub](https://github.com/farrellkj2)   
 
-* <img src="./images/RG.png"> [ResearchGate](https://www.researchgate.net/profile/Kaitlin_Farrell)         
+<img src="./images/RG.png"> [ResearchGate](https://www.researchgate.net/profile/Kaitlin_Farrell)         
 
-* <img src="./images/orcid.png"> [ORCiD](https://orcid.org/0000-0002-4709-7749)  
+<img src="./images/orcid.png"> [ORCiD](https://orcid.org/0000-0002-4709-7749)  
 
-* <img src="./images/gschol.png"> [Google Scholar](https://scholar.google.com/citations?user=3fofYzcAAAAJ&hl=en)   
+<img src="./images/gschol.png"> [Google Scholar](https://scholar.google.com/citations?user=3fofYzcAAAAJ&hl=en)   
 
