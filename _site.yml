@@ -24,4 +24,4 @@ navbar:
       href: https://twitter.com/farrellkj2
 output:
   html_document:
-    theme: readable
+    theme: cerulean
