@@ -1,16 +1,16 @@
-name: "Kaitlin J. Farrell"                                # CHANGE HERE 
+name: Kaitlin J. Farrell                                # CHANGE HERE 
 output_dir: "."
 navbar:
-  title: "Kaitlin J. Farrell"                             # CHANGE HERE 
+  title: Kaitlin J. Farrell                             # CHANGE HERE 
   type: inverse
   left:
-    - text: "Home"
+    - text: Home
       href: index.html
-    - text: "About"
+    - text: About
       href: about.html
-    - text: "CV"
+    - text: CV
       href: cv.html
-    - text: "Publications"
+    - text: Publications
       href: pubs.html
   right:
     - icon: fa-envelope-o
@@ -21,7 +21,7 @@ navbar:
       href: https://twitter.com/farrellkj2
 output:
   html_document:
-    theme: cerulean
+    theme: readable
     highlight: textmate
     lib_dir: site_libs
     self_contained: no
