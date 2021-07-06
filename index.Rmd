@@ -8,5 +8,8 @@ My name is Kait (she/her), and I am an ecologist and educator. In my work as the
 My research background is in freshwater ecosystem ecology. I earned my Ph.D. in Ecology in May 2017 from the University of Georgia, and from 2017-2019, I was a postdoctoral associate at Virginia Tech, where I worked on lake modeling and developing teaching modules to bring "big data" concepts into undergraduate ecology classes. To learn about my previous research, please visit my [Research](https://farrellkj2.github.io/research.html) and [Publications](https://farrellkj2.github.io/pubs.html) pages. 
 
 ****
+<center>
+*Site last updated: 6 July 2021*
 
-Webpage development-in-progress using [rmarkdown website template](https://github.com/privefl/rmarkdown-website-template){target="_blank"} developed by [privefl](https://github.com/privefl){target="_blank"}
+Webpage development-in-progress using [rmarkdown website template](https://github.com/privefl/rmarkdown-website-template){target="_blank"} developed by [privefl](https://github.com/privefl){target="_blank"}. 
+</center>
