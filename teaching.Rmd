@@ -1,0 +1,12 @@
+---
+title: "Teaching"
+output:
+  html_document:
+    toc: false
+    toc_depth: 2
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
