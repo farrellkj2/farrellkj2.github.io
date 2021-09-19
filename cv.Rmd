@@ -4,7 +4,7 @@ title: "CV"
 
 Click the link below to download a PDF of my CV.
 
-<img src="./images/cv.png"><a href="Farrell_CV_20210517.pdf#" class="download" title="Farrell_CV_17May2021">Download CV</a>			
+<img src="./images/cv.png"><a href="Farrell_CV_20210517.pdf#" class="download" title="Farrell_CV_17May2021">Download academic CV</a>			
 
 You can also find me/learn more about my research on:  
 

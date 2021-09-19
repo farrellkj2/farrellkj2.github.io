@@ -12,12 +12,17 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Peer-Reviewed Publications  
+### Accepted/In Press
+* Emery, N., E. Crispo, S.R. Supp, **K.J. Farrell**, A.J. Kerkhoff, E.K. Bledsoe, K.L. O'Donnell, A.C. McCall, & M. Aiello-Lammens. Data science in undergraduate life science education: a need for instructor skills training. *Bioscience, in press*.
+
 ### 2021    
 * **Farrell, K.J.**, K.C. Weathers, S.H. Sparks, J.A. Brentrup, C.C. Carey, M.C. Dietze, J.R. Foster, K.L. Grayson, J.H. Matthes, & M.D. SanClements. 2021. Training macrosystems scientists requires both interpersonal and technical skills. *Frontiers in Ecology and the Environment* 19: 39-46. DOI: [10.1002/fee.2287](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/fee.2287)
 
-* Creed, R.P, J. Skelton, **K.J. Farrell**, & B.L. Brown. 2020. Strong effects of a mutualism on freshwater community structure. *Ecology* 102: e03225. DOI: [10.1002/ecy.3225](https://doi.org/10.1002/ecy.3225)
+* Creed, R.P, J. Skelton, **K.J. Farrell**, & B.L. Brown. 2021. Strong effects of a mutualism on freshwater community structure. *Ecology* 102: e03225. DOI: [10.1002/ecy.3225](https://doi.org/10.1002/ecy.3225)
 
-* Kincaid, D.W., W.S. Beck, J.E. Brandt, M.M. Brisbin, **K.J. Farrell**, K.L. Hondula, E.I. Larson, & A.J. Shogren. 2020. Wikipedia can help resolve information inequality in the aquatic sciences. *Limnology and Oceanography Letters* 6: 18-23. DOI: [10.1002/lol2.10168](https://doi.org/10.1002/lol2.10168)
+* Hounshell, A.G., **K.J. Farrell**, & C.C. Carey. 2021. Macrosystems EDDIE teaching modules increase students’ ability to define, interpret, and apply concepts in macrosystems ecology. *Education Sciences* 11: 382. DOI: [10.3390/educsci11080382](https://doi.org/10.3390/educsci11080382)
+
+* Kincaid, D.W., W.S. Beck, J.E. Brandt, M.M. Brisbin, **K.J. Farrell**, K.L. Hondula, E.I. Larson, & A.J. Shogren. 2021. Wikipedia can help resolve information inequality in the aquatic sciences. *Limnology and Oceanography Letters* 6: 18-23. DOI: [10.1002/lol2.10168](https://doi.org/10.1002/lol2.10168)
 
 ### 2020   
 * **Farrell, K.J.**, N.K. Ward, A.I. Krinos, P.C. Hanson, V. Daneshmand, R.J. Figueiredo, & C.C. Carey. 2020. Ecosystem-scale nutrient cycling responses to increasing air temperatures vary with lake trophic state. *Ecological Modelling* 430: 109134. DOI: [10.1016/j.ecolmodel.2020.109134](https://doi.org/10.1016/j.ecolmodel.2020.109134)
@@ -71,7 +76,7 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>  
 
 ## Published Teaching Modules  
-* Carey, C.C., **K.J. Farrell**, & A.G. Hounshell. Macrosystems EDDIE Module 4: Macro-Scale Feedbacks. *Environmental Data Initiative*. DOI: [10.6073/pasta/c2cabba0b755d852dabe74d181e2dc28](https://doi.org/10.6073/pasta/c2cabba0b755d852dabe74d181e2dc28)
+* Carey, C.C., **K.J. Farrell**, & A.G. Hounshell. 2020. Macrosystems EDDIE Module 4: Macro-Scale Feedbacks. *Environmental Data Initiative*. DOI: [10.6073/pasta/c2cabba0b755d852dabe74d181e2dc28](https://doi.org/10.6073/pasta/c2cabba0b755d852dabe74d181e2dc28)
 
 * **Farrell, K.J.**, & C.C. Carey. 2019. Macrosystems EDDIE Module 3: Teleconnections. *Environmental Data Initiative*. DOI: [10.6073/pasta/89ffc527545f581290a7c19c5cbb7163](https://doi.org/10.6073/pasta/89ffc527545f581290a7c19c5cbb7163)
 
@@ -85,4 +90,4 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Published Data Products  
 * Carey C.C., M.E. Lofton, A.B. Gerling, R.P. McClure, J.P. Doubek, B.R. Niederlehner, & **K.J. Farrell**. 2019. Water chemistry time series for Beaverdam Reservoir, Carvins Cove Reservoir, Falling Creek Reservoir, Gatewood Reservoir, and Spring Hollow Reservoir in southwestern Virginia, USA 2013-2018. *Environmental Data Initiative*. DOI: [10.6073/pasta/08a8d297003c8e8593f888980f52bbcf](https://portal.edirepository.org/nis/mapbrowse?packageid=edi.199.5)
 
-* Carey C.C., A.B. Gerling, J.P. Doubek, K.D. Hamre, R.P. McClure, M.E. Lofton, & **K.J. Farrell. 2019**. Secchi depth data and discrete depth profiles of photosynthetically active radiation, temperature, dissolved oxygen, and pH for Beaverdam Reservoir, Carvins Cove Reservoir, Falling Creek Reservoir, Gatewood Reservoir, and Spring Hollow Reservoir in southwestern Virginia, USA 2013-2018. *Environmental Data Initiative*. DOI: [10.6073/pasta/e840c6c921afb43c326111b525de62b2](https://portal.edirepository.org/nis/mapbrowse?packageid=edi.198.6)
+* Carey C.C., A.B. Gerling, J.P. Doubek, K.D. Hamre, R.P. McClure, M.E. Lofton, & **K.J. Farrell**. 2019. Secchi depth data and discrete depth profiles of photosynthetically active radiation, temperature, dissolved oxygen, and pH for Beaverdam Reservoir, Carvins Cove Reservoir, Falling Creek Reservoir, Gatewood Reservoir, and Spring Hollow Reservoir in southwestern Virginia, USA 2013-2018. *Environmental Data Initiative*. DOI: [10.6073/pasta/e840c6c921afb43c326111b525de62b2](https://portal.edirepository.org/nis/mapbrowse?packageid=edi.198.6)
