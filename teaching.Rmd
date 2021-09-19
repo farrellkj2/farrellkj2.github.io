@@ -1,5 +1,5 @@
 ---
-title: "Teaching & Course Development"
+title: ""
 output:
   html_document:
     toc: true
@@ -10,7 +10,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-# Courses Taught
+# Course Development & Instruction
 ## Large-Enrollment Lab Courses
 *Fall, Spring, and Summer semesters since Fall 2019* 
 
