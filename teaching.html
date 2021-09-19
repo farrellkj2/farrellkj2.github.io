@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Teaching &amp; Course Development</title>
+
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Kaitlin J. Farrell</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="cv.html">CV</a>
+</li>
+<li>
+  <a href="pubs.html">Publications</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:kfarrell@uga.edu">
+    <span class="fa fa-envelope-o"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/farrellkj2">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/farrellkj2">
+    <span class="fa fa-twitter"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Teaching &amp; Course Development</h1>
+
+</div>
+
+
+<div id="courses-taught" class="section level1">
+<h1>Courses Taught</h1>
+<div id="large-enrollment-lab-courses" class="section level2">
+<h2>Large-Enrollment Lab Courses</h2>
+<p><em>Fall, Spring, and Summer semesters since Fall 2019</em></p>
+<p>As the undergraduate lab coordinator for the Odum School of Ecology, I develop activities for, and coordinate graduate teaching assistants’ instruction of, our large-enrollment lab courses. Labs enroll over 1200 students per year.</p>
+<ul>
+<li><p>Ecological Basis of Environmental Issues (<strong>ECOL 1000L</strong>): An introductory, non-majors lab that introduces students to core concepts in ecological principles and how human activities affect the environment. Throughout the semester, students practice communicating about scientific information, visualizing data, and critically evaluating moral and ethical issues associated with the environmental challenges we face.</p></li>
+<li><p>Ecology Lab (<strong>ECOL 3500L</strong>) and Ecology Lab- Honors (<strong>ECOL 3505L</strong>): An upper-level lab for STEM majors that reinforces concepts from the co-requisite ecology lecture using hands-on activities. Students also regularly practice communicating scientific knowledge, analyzing and visualizing data, and designing and implementing ecological field studies.</p></li>
+</ul>
+</div>
+<div id="interdisciplinary-field-program" class="section level2">
+<h2>Interdisciplinary Field Program</h2>
+<p><em>Summer 2016, Summer 2018-present</em></p>
+<p>The UGA Interdisciplinary Field Program (<a href="https://ifp.uga.edu/">IFP</a>) is an 8-week cross-country “summer semester on wheels” in which students are enrolled in concurrent geology, anthropology, and ecology courses. As an ecology instructor, I develop and teach place-based lessons for two courses:</p>
+<ul>
+<li><p>Ecological Basis of Environmental Issues- Honors section + lab (<strong>ECOL 1000H &amp; 1000L</strong>)</p></li>
+<li><p>Ecology of North America (<strong>ECOL 4160</strong>)</p></li>
+</ul>
+</div>
+<div id="additional-courses" class="section level2">
+<h2>Additional Courses</h2>
+<ul>
+<li><p>Graduate Teaching Seminar (<strong>GRSC 7770</strong>): Each fall since 2019, I teach a course for first-time graduate teaching assistants in ecology and related disciplines. The course focuses on implementing evidence-based teaching practices, developing lessons using backward design principles, and inclusive and reflective teaching.</p></li>
+<li><p>Ecology Senior Seminar (<strong>ECOL 4950</strong>): Since Spring 2020, I have taught the capstone seminar course for undergraduate Ecology majors at UGA. The seminar focuses on student-led discussions of cutting-edge topics in the ecological literature, and communicating their ecological expertise by <a href="https://wikiedu.org/blog/2021/06/08/sharing-ecological-expertise-through-wikipedia/">editing Wikipedia pages</a>.</p></li>
+<li><p>Ecology Research Lab (<strong>ECOL 3510</strong>): In Summer 2021, I designed and taught a course-based undergraduate research experience (CURE) to immerse students in the process of conducting ecological research. Activities focused on student-driven research using publically-available datasets from the National Ecological Observatory network (<a href="https://www.neonscience.org/">NEON</a>), as well as implementing best practices in collaborative and reproducible research.</p></li>
+</ul>
+<div id="graduate-teaching-assistantships" class="section level3">
+<h3>Graduate Teaching Assistantships</h3>
+<ul>
+<li><p>Freshwater Ecosystems Lab: In Fall 2015 and 2016, I taught hands-on labs to collect and analyze data from local lakes and streams. As part of my teaching assistantship, I restructured the student lab manual and developed a teaching assistant manual.</p></li>
+<li><p>Ichthyology Lab: In Fall 2014, I taught labs that focused on inquiry-based explorations of fish taxonomy, morphology, and ecology using preserved specimens. As part of that role, I also developed a student lab book for use in subsequent semesters.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="macrosystems-eddie" class="section level1">
+<h1>Macrosystems EDDIE</h1>
+<p><img src="images/macroeddie.png" align="right" height="150"/> As part of my postdoctoral work, I helped develop the first four teaching modules in the <a href="www.MacrosystemsEDDIE.org">Macrosystems EDDIE</a> (Environmental Data-Driven Inquiry &amp; Exploration) project. These flexible, ready-to-use modules can be used alone or as a series to bring macrosystems ecology concepts and simulation modeling into undergraduate science classes.</p>
+<p>As part of module development, we assessed how effectively each module achieved desired learning outcomes through volunteer classrooms whose students completed paired pre- and post-module assessments.</p>
+<p>Key findings include:</p>
+<ul>
+<li><p>Working with hands-on modules helps build students’ computational literacy and empower students with the skills to ask complex ecological questions (Farrell &amp; Carey 2018)</p></li>
+<li><p>Macrosystems EDDIE modules increased students’ proficiency &amp; confidence working with ecosystem models and their use of systems thinking (Carey et al. 2020)</p></li>
+<li><p>Macrosystems EDDIE modules increased students’ability to define, interpret, and apply key concepts in macrosystems ecology (Hounshell et al. 2021)</p></li>
+</ul>
+</div>
+<div id="pedagogical-training" class="section level1">
+<h1>Pedagogical Training</h1>
+<div id="teaching-certificate" class="section level2">
+<h2>Teaching Certificate</h2>
+<p>While pursuing my PhD, I also completed the University of Georgia <a href="https://grad.uga.edu/index.php/current-students/professional-development/university-teaching/">Interdisciplinary Certificate in University Teaching</a> (2017).</p>
+<p>As part of that program, I completed 9 hours of coursework in pedagogy and course design:</p>
+<ul>
+<li><p>Graduate Seminar for Teaching and Laboratory Assistants (GRSC 7770), Fall 2013</p></li>
+<li><p>Designing Courses for Significant Learning (GRSC 7900), Fall 2014</p></li>
+<li><p>Using Technology in the College Classroom (EDHI 9040), Spring 2015</p></li>
+</ul>
+<p><img src="images/img-2087-edited.jpg" align="right" height="220"/> I also designed and carried out scholarship of teaching and learning (SoTL) study, “Assessing student preparedness for writing in the sciences”, to assess how prepared upper-level undergraduate and first-semester graduate students were for writing scientific-style reports.</p>
+<p>Through a combination of pre- and post-assignment student surveys, I assessed whether student perceptions of their preparedness matched their performance on writing assignments, and if not, if and how I could develop scaffolding activities to improve their writing outcomes.</p>
+<p>I presented the results of my project at the 2016 University System of Georgia Teaching and Learning Conference in Athens, GA.</p>
+</div>
+</div>
+<div id="teaching-awards-recognition" class="section level1">
+<h1>Teaching Awards &amp; Recognition</h1>
+<ul>
+<li><p>2021: Dean’s Award, Odum School of Ecology, University of Georgia</p>
+<ul>
+<li>Given “to honor professional achievement and outstanding creativity and innovation in service, research or teaching”</li>
+</ul></li>
+<li><p>2021 Outstanding Faculty Instructor of the Year, Odum School of Ecology, University of Georgia</p>
+<ul>
+<li>“Farrell was honored for exceptional creativity and care in coordinating the pivot of ecology’s instructional laboratory program to online and hybrid format this past year, and for outstanding curricular development and mentoring of graduate student teaching assistants in ecology” (<a href="https://www.ecology.uga.edu/odum-school-2021-spring-fling/">OSE News</a>)</li>
+</ul></li>
+<li><p>2017: Ecology Nominee, Excellence in Teaching Award, University of Georgia</p></li>
+<li><p>2016: Outstanding Teaching Assistant Award, University of Georgia</p></li>
+<li><p>2016: Distinguished Graduate Student Teaching Award, Odum School of Ecology, University of Georgia</p></li>
+</ul>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
