@@ -31,6 +31,10 @@ The UGA Interdisciplinary Field Program ([IFP](https://ifp.uga.edu/)) is an 8-we
 
 * Ecology of North America (**ECOL 4160**)
 
+<p align="center">
+  <img width="554" height="216" src="./images/ifp.png" align="center">
+</p>
+
 ## Additional Courses
 * Graduate Teaching Seminar (**GRSC 7770**): Each fall since 2019, I teach a course for first-time graduate teaching assistants in ecology and related disciplines. The course focuses on implementing evidence-based teaching practices, developing lessons using backward design principles, and inclusive and reflective teaching.
 
@@ -40,6 +44,10 @@ The UGA Interdisciplinary Field Program ([IFP](https://ifp.uga.edu/)) is an 8-we
 
 ### Graduate Teaching Assistantships
 * Freshwater Ecosystems Lab: In Fall 2015 and 2016, I taught hands-on labs to collect and analyze data from local lakes and streams. As part of my teaching assistantship, I restructured the student lab manual and developed a teaching assistant manual. 
+
+<p align="center">
+  <img width="480" height="165" src="./images/limno.png" align="center">
+</p>
 
 * Ichthyology Lab: In Fall 2014, I taught labs that focused on inquiry-based explorations of fish taxonomy, morphology, and ecology using preserved specimens. As part of that role, I also developed a student lab book for use in subsequent semesters.
 
