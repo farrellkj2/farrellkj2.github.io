@@ -12,13 +12,12 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Peer-Reviewed Publications  
-### Accepted/In Press
-* Emery, N., E. Crispo, S.R. Supp, **K.J. Farrell**, A.J. Kerkhoff, E.K. Bledsoe, K.L. O'Donnell, A.C. McCall, & M. Aiello-Lammens. Data science in undergraduate life science education: a need for instructor skills training. *Bioscience, accepted*. Manuscript ID: BIOS-21-0146.
-
 ### 2021    
 * **Farrell, K.J.**, K.C. Weathers, S.H. Sparks, J.A. Brentrup, C.C. Carey, M.C. Dietze, J.R. Foster, K.L. Grayson, J.H. Matthes, & M.D. SanClements. 2021. Training macrosystems scientists requires both interpersonal and technical skills. *Frontiers in Ecology and the Environment* 19: 39-46. DOI: [10.1002/fee.2287](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/fee.2287)
 
 * Creed, R.P, J. Skelton, **K.J. Farrell**, & B.L. Brown. 2021. Strong effects of a mutualism on freshwater community structure. *Ecology* 102: e03225. DOI: [10.1002/ecy.3225](https://doi.org/10.1002/ecy.3225)
+
+* Emery, N., E. Crispo, S.R. Supp, **K.J. Farrell**, A.J. Kerkhoff, E.K. Bledsoe, K.L. O'Donnell, A.C. McCall, & M. Aiello-Lammens. Data science in undergraduate life science education: a need for instructor skills training. *Bioscience* 71: 1274-1287. DOI: [10.1093](https://doi.org/10.1093/biosci/biab107)
 
 * Hounshell, A.G., **K.J. Farrell**, & C.C. Carey. 2021. Macrosystems EDDIE teaching modules increase students’ ability to define, interpret, and apply concepts in macrosystems ecology. *Education Sciences* 11: 382. DOI: [10.3390/educsci11080382](https://doi.org/10.3390/educsci11080382)
 
