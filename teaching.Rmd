@@ -29,7 +29,7 @@ The UGA Interdisciplinary Field Program ([IFP](https://ifp.uga.edu/)) is an 8-we
 
 * Ecological Basis of Environmental Issues- Honors section + lab (**ECOL 1000H & 1000L**)
 
-* Ecology of North America (**ECOL 4160**)
+* Ecology of North America (**ECOL 4160/4160L**)
 
 <p align="center">
   <img width="554" height="216" src="./images/ifp.png" align="center">
@@ -38,7 +38,7 @@ The UGA Interdisciplinary Field Program ([IFP](https://ifp.uga.edu/)) is an 8-we
 ## Additional Courses
 * Graduate Teaching Seminar (**GRSC 7770**): Each fall since 2019, I teach a course for first-time graduate teaching assistants in ecology and related disciplines. The course focuses on implementing evidence-based teaching practices, developing lessons using backward design principles, and inclusive and reflective teaching.
 
-* Ecology Senior Seminar (**ECOL 4950**): Since Spring 2020, I have taught the capstone seminar course for undergraduate Ecology majors at UGA. The seminar focuses on student-led discussions of cutting-edge topics in the ecological literature, and communicating their ecological expertise by [editing Wikipedia pages](https://wikiedu.org/blog/2021/06/08/sharing-ecological-expertise-through-wikipedia/).  
+* Ecology Senior Seminar (**ECOL 4950**): From Spring 2020-Fall 2021, I taught the capstone seminar course for undergraduate Ecology majors at UGA. The seminar focuses on student-led discussions of cutting-edge topics in the ecological literature, and communicating their ecological expertise by [editing Wikipedia pages](https://wikiedu.org/blog/2021/06/08/sharing-ecological-expertise-through-wikipedia/).  
 
 * Ecology Research Lab (**ECOL 3510**): In Summer 2021, I designed and taught a course-based undergraduate research experience (CURE) to immerse students in the process of conducting ecological research. Activities focused on student-driven research using publically-available datasets from the National Ecological Observatory network ([NEON](https://www.neonscience.org/)), as well as implementing best practices in collaborative and reproducible research. 
 
@@ -85,6 +85,8 @@ Through a combination of pre- and post-assignment student surveys, I assessed wh
 I presented the results of my project at the 2016 University System of Georgia Teaching and Learning Conference in Athens, GA.
 
 # Teaching Awards & Recognition 
+* 2022: Nominee, University of Georgia Creative Teaching Award 
+
 * 2021: Dean’s Award, Odum School of Ecology, University of Georgia  
   + Given "to honor professional achievement and outstanding creativity and innovation in service, research or teaching"
 

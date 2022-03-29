@@ -11,7 +11,7 @@ My research background is in freshwater ecosystem ecology. I earned my Ph.D. in 
 
 ****
 <center>
-*Site last updated: 18 September 2021*
+*Site last updated: 29 March 2022*
 
 Webpage development-in-progress using [rmarkdown website template](https://github.com/privefl/rmarkdown-website-template){target="_blank"} developed by [privefl](https://github.com/privefl){target="_blank"}. 
 </center>
