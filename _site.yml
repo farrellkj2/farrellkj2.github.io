@@ -19,8 +19,6 @@ navbar:
       href: mailto:kfarrell@uga.edu
     - icon: fa-github
       href: https://github.com/farrellkj2
-    - icon: fa-twitter
-      href: https://twitter.com/farrellkj2
 output:
   html_document:
     theme: readable

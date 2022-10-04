@@ -27,14 +27,14 @@ My research was focused on quantifying linkages between structure and function i
 <img src="./images/4254898-orig.jpg" align="right" height="180"/>
 As a member of the 2nd cohort of the Global Lakes Ecological Observatory Network (GLEON) Fellowship Program (2015-2017), I gained hands-on experience in both interdisciplinary team science & macrosystems biology. Our working groups focused on:  
 
-1. documenting long-term trends in salt concentrations in lakes (Dugan et al. 2017) and    
+1. documenting long-term trends in salt concentrations in lakes [(Dugan et al. 2017)](https://www.pnas.org/doi/full/10.1073/pnas.1620211114) and    
 
-2. developing simple dynamic models for organic carbon cycling in lakes (McCullough et al. 2018). 
+2. developing simple dynamic models for organic carbon cycling in lakes [(McCullough et al. 2018)](https://doi.org/10.1016/j.ecolmodel.2018.08.009). 
 
 # Earlier Projects
 ### Crayfish/Branchiobdellid Symbiosis Research
 <img src="./images/9929935.jpg" align="right" height="120"/>
-While pursuing my Master's degree, I studied aspects of the cleaning symbiosis between crayfish (*Cambarus* spp.) and branchiobdellid worms (Annelida: Branchiobdellidae). My research specifically sought to determine why two co-existing crayfish (*Cambarus chasmodactylus* and *Orconectes cristavarius*) differ in the number of worms (Cambarincola ingens) they host.
+While pursuing my Master's degree, I studied aspects of the cleaning symbiosis between crayfish (*Cambarus* spp.) and branchiobdellid worms (Annelida: Branchiobdellidae). My research specifically sought to determine why two co-existing crayfish (*Cambarus chasmodactylus* and *Orconectes cristavarius*) differ in the number of worms (*Cambarincola ingens*) they host.
 
 Collaborators: Dr. Robert Creed; Dr. Bryan Brown; Dr. James Skelton
 

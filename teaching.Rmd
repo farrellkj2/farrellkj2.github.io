@@ -36,24 +36,25 @@ The UGA Interdisciplinary Field Program ([IFP](https://ifp.uga.edu/)) is an 8-we
 </p>
 
 ## Additional Courses
-* Graduate Teaching Seminar (**GRSC 7770**): Each fall since 2019, I teach a course for first-time graduate teaching assistants in ecology and related disciplines. The course focuses on implementing evidence-based teaching practices, developing lessons using backward design principles, and inclusive and reflective teaching.
+* Ecology Research Lab (**ECOL 3510**): In Summer 2021, I designed and taught a course-based undergraduate research experience (CURE) to immerse students in the process of conducting ecological research. Activities focused on student-driven research using publically-available datasets from the National Ecological Observatory network ([NEON](https://www.neonscience.org/)), as well as implementing best practices in collaborative and reproducible research. 
 
 * Ecology Senior Seminar (**ECOL 4950**): From Spring 2020-Fall 2021, I taught the capstone seminar course for undergraduate Ecology majors at UGA. The seminar focuses on student-led discussions of cutting-edge topics in the ecological literature, and communicating their ecological expertise by [editing Wikipedia pages](https://wikiedu.org/blog/2021/06/08/sharing-ecological-expertise-through-wikipedia/).  
 
-* Ecology Research Lab (**ECOL 3510**): In Summer 2021, I designed and taught a course-based undergraduate research experience (CURE) to immerse students in the process of conducting ecological research. Activities focused on student-driven research using publically-available datasets from the National Ecological Observatory network ([NEON](https://www.neonscience.org/)), as well as implementing best practices in collaborative and reproducible research. 
+* Graduate Teaching Seminar (**GRSC 7770**): Each fall since 2019, I teach a course for first-time graduate teaching assistants in ecology and related disciplines. The course focuses on implementing evidence-based teaching practices, developing lessons using backward design principles, and inclusive and reflective teaching.
 
 ### Graduate Teaching Assistantships
+* Ichthyology Lab: In Fall 2014, I taught labs that focused on inquiry-based explorations of fish taxonomy, morphology, and ecology using preserved specimens. As part of that role, I also developed a student lab book for use in subsequent semesters.
+
 * Freshwater Ecosystems Lab: In Fall 2015 and 2016, I taught hands-on labs to collect and analyze data from local lakes and streams. As part of my teaching assistantship, I restructured the student lab manual and developed a teaching assistant manual. 
 
 <p align="center">
   <img width="480" height="165" src="./images/limno.png" align="center">
 </p>
 
-* Ichthyology Lab: In Fall 2014, I taught labs that focused on inquiry-based explorations of fish taxonomy, morphology, and ecology using preserved specimens. As part of that role, I also developed a student lab book for use in subsequent semesters.
 
 # Macrosystems EDDIE
 <img src="./images/macroeddie.png" align="right" height="150"/>
-As part of my postdoctoral work, I helped develop the first four teaching modules in the [Macrosystems EDDIE](www.MacrosystemsEDDIE.org) (Environmental Data-Driven Inquiry & Exploration) project. These flexible, ready-to-use modules can be used alone or as a series to bring macrosystems ecology concepts and simulation modeling into undergraduate science classes.
+As part of my postdoctoral work, I helped develop the first four teaching modules in the [Macrosystems EDDIE](https://serc.carleton.edu/eddie/macrosystems/index.html) (Environmental Data-Driven Inquiry & Exploration) project. These flexible, ready-to-use modules can be used alone or as a series to bring macrosystems ecology concepts and simulation modeling into undergraduate science classes.
 
 As part of module development, we assessed how effectively each module achieved desired learning outcomes through volunteer classrooms whose students completed paired pre- and post-module assessments.
 
@@ -67,7 +68,7 @@ Key findings include:
 
 # Pedagogical Training
 ## Teaching Certificate
-While pursuing my PhD, I also completed the University of Georgia [Interdisciplinary Certificate in University Teaching](https://grad.uga.edu/index.php/current-students/professional-development/university-teaching/) (2017). 
+While pursuing my PhD, I also completed the University of Georgia Interdisciplinary Certificate in University Teaching (2017). 
 
 As part of that program, I completed 9 hours of coursework in pedagogy and course design:  
 

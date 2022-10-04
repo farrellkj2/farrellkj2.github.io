@@ -13,8 +13,8 @@
 
 <title>Research Experience</title>
 
-<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -65,6 +65,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -85,6 +86,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -142,11 +146,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -310,7 +318,7 @@ div.tocify {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -348,12 +356,6 @@ div.tocify {
      
   </a>
 </li>
-<li>
-  <a href="https://twitter.com/farrellkj2">
-    <span class="fa fa-twitter"></span>
-     
-  </a>
-</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -370,40 +372,121 @@ div.tocify {
 
 <div id="postdoctoral-research" class="section level1">
 <h1>Postdoctoral Research</h1>
-<p><img src="images/reservoirgroupsummer2017_2.jpg" align="right" height="200"/> As a postdoc at Virginia Tech, I worked on a number of collaborative projects related to lake biogeochemistry. In a collaboration between computer scientists and limnologists through the <a href="http://www.pragma-grid.net/projects/lake/">PRAGMA-GLEON expedition</a>, I modeled how nitrogen and phosphorus cycling in a eutrophic lake and oligotrophic lake may respond differently to climate warming <a href="https://www.sciencedirect.com/science/article/pii/S0304380020302064">(Farrell et al. 2020)</a>. I also contributed to a multidisciplinary Coupled Natural Human Systems project- <a href="https://www.cnhlakes.frec.vt.edu/">CNH-Lakes</a> <a href="https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.2209">(Cobourn et al. 2018)</a>- where I helped link models of lake water chemistry and economics to explore how water clarity and phytoplankton blooms affect properly values near lakes <a href="https://www.sciencedirect.com/science/article/pii/S0921800919304549?via%3Dihub">(Weng et al. 2020)</a>.</p>
-<p>In addition, I worked with Cayelan Carey to develop <a href="https://serc.carleton.edu/eddie/macrosystems/index.html">Macrosystems EDDIE</a>- a curriculum of teaching modules that help introduce undergraduate students to macrosystems ecology concepts through the use of simulation modeling and R <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/ece3.4363">(Farrell &amp; Carey 2018)</a>.</p>
+<p><img src="images/reservoirgroupsummer2017_2.jpg" align="right" height="200"/>
+As a postdoc at Virginia Tech, I worked on a number of collaborative
+projects related to lake biogeochemistry. In a collaboration between
+computer scientists and limnologists through the <a
+href="http://www.pragma-grid.net/projects/lake/">PRAGMA-GLEON
+expedition</a>, I modeled how nitrogen and phosphorus cycling in a
+eutrophic lake and oligotrophic lake may respond differently to climate
+warming <a
+href="https://www.sciencedirect.com/science/article/pii/S0304380020302064">(Farrell
+et al. 2020)</a>. I also contributed to a multidisciplinary Coupled
+Natural Human Systems project- <a
+href="https://www.cnhlakes.frec.vt.edu/">CNH-Lakes</a> <a
+href="https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.2209">(Cobourn
+et al. 2018)</a>- where I helped link models of lake water chemistry and
+economics to explore how water clarity and phytoplankton blooms affect
+properly values near lakes <a
+href="https://www.sciencedirect.com/science/article/pii/S0921800919304549?via%3Dihub">(Weng
+et al. 2020)</a>.</p>
+<p>In addition, I worked with Cayelan Carey to develop <a
+href="https://serc.carleton.edu/eddie/macrosystems/index.html">Macrosystems
+EDDIE</a>- a curriculum of teaching modules that help introduce
+undergraduate students to macrosystems ecology concepts through the use
+of simulation modeling and R <a
+href="https://onlinelibrary.wiley.com/doi/abs/10.1002/ece3.4363">(Farrell
+&amp; Carey 2018)</a>.</p>
 </div>
 <div id="phd-research" class="section level1">
 <h1>PhD Research</h1>
-<p><img src="images/scaler-people.png" align="right" height="250"/> My PhD research was part of the <strong>S</strong>cale, <strong>C</strong>onsumers, <strong>A</strong>nd <strong>L</strong>otic <strong>E</strong>cosystem <strong>R</strong>ates (SCALER) project, which was a collaborative Macrosystems biology project that has included headwater stream networks in five biomes across North America (tropical forest, temperate mountainous forest, prairie, northern boreal evergreen forest, &amp; tundra), with the goal of determining how small-scale ecological experiments be applied to understand patterns and processes at the ecosystem scale <a href="https://www.fs.usda.gov/treesearch/pubs/download/52440.pdf">(Rüegg et al. 2016;</a><a href="https://www.nature.com/articles/s41561-018-0125-5">Song et al. 2018)</a>.</p>
-<p>My research was focused on quantifying linkages between structure and function in headwater stream networks, with field work based out of the Coweeta Hydrologic Lab in Macon County, North Carolina (USA). I was particularly interested in understanding how the removal of large aquatic consumers (salamanders, crayfish, fishes) changed rates of stream metabolism and nutrient uptake, because understanding how organism losses affect stream processes could help predict stream responses to environmental disturbance and biodiversity loss. In addition, I asked questions about how aquatic food webs, in terms of primary and secondary consumers, and the basal resources they feed upon, change along stream networks <a href="https://link.springer.com/article/10.1007/s10021-018-0247-z">(Farrell et al. 2018)</a>.</p>
+<p><img src="images/scaler-people.png" align="right" height="250"/> My
+PhD research was part of the <strong>S</strong>cale,
+<strong>C</strong>onsumers, <strong>A</strong>nd <strong>L</strong>otic
+<strong>E</strong>cosystem <strong>R</strong>ates (SCALER) project,
+which was a collaborative Macrosystems biology project that has included
+headwater stream networks in five biomes across North America (tropical
+forest, temperate mountainous forest, prairie, northern boreal evergreen
+forest, &amp; tundra), with the goal of determining how small-scale
+ecological experiments be applied to understand patterns and processes
+at the ecosystem scale <a
+href="https://www.fs.usda.gov/treesearch/pubs/download/52440.pdf">(Rüegg
+et al. 2016;</a><a
+href="https://www.nature.com/articles/s41561-018-0125-5">Song et
+al. 2018)</a>.</p>
+<p>My research was focused on quantifying linkages between structure and
+function in headwater stream networks, with field work based out of the
+Coweeta Hydrologic Lab in Macon County, North Carolina (USA). I was
+particularly interested in understanding how the removal of large
+aquatic consumers (salamanders, crayfish, fishes) changed rates of
+stream metabolism and nutrient uptake, because understanding how
+organism losses affect stream processes could help predict stream
+responses to environmental disturbance and biodiversity loss. In
+addition, I asked questions about how aquatic food webs, in terms of
+primary and secondary consumers, and the basal resources they feed upon,
+change along stream networks <a
+href="https://link.springer.com/article/10.1007/s10021-018-0247-z">(Farrell
+et al. 2018)</a>.</p>
 </div>
 <div id="gleon-fellowship" class="section level1">
 <h1>GLEON Fellowship</h1>
-<p><img src="images/4254898-orig.jpg" align="right" height="180"/> As a member of the 2nd cohort of the Global Lakes Ecological Observatory Network (GLEON) Fellowship Program (2015-2017), I gained hands-on experience in both interdisciplinary team science &amp; macrosystems biology. Our working groups focused on:</p>
+<p><img src="images/4254898-orig.jpg" align="right" height="180"/> As
+a member of the 2nd cohort of the Global Lakes Ecological Observatory
+Network (GLEON) Fellowship Program (2015-2017), I gained hands-on
+experience in both interdisciplinary team science &amp; macrosystems
+biology. Our working groups focused on:</p>
 <ol style="list-style-type: decimal">
-<li><p>documenting long-term trends in salt concentrations in lakes (Dugan et al. 2017) and</p></li>
-<li><p>developing simple dynamic models for organic carbon cycling in lakes (McCullough et al. 2018).</p></li>
+<li><p>documenting long-term trends in salt concentrations in lakes <a
+href="https://www.pnas.org/doi/full/10.1073/pnas.1620211114">(Dugan et
+al. 2017)</a> and</p></li>
+<li><p>developing simple dynamic models for organic carbon cycling in
+lakes <a
+href="https://doi.org/10.1016/j.ecolmodel.2018.08.009">(McCullough et
+al. 2018)</a>.</p></li>
 </ol>
 </div>
 <div id="earlier-projects" class="section level1">
 <h1>Earlier Projects</h1>
-<div id="crayfishbranchiobdellid-symbiosis-research" class="section level3">
+<div id="crayfishbranchiobdellid-symbiosis-research"
+class="section level3">
 <h3>Crayfish/Branchiobdellid Symbiosis Research</h3>
-<p><img src="images/9929935.jpg" align="right" height="120"/> While pursuing my Master’s degree, I studied aspects of the cleaning symbiosis between crayfish (<em>Cambarus</em> spp.) and branchiobdellid worms (Annelida: Branchiobdellidae). My research specifically sought to determine why two co-existing crayfish (<em>Cambarus chasmodactylus</em> and <em>Orconectes cristavarius</em>) differ in the number of worms (Cambarincola ingens) they host.</p>
-<p>Collaborators: Dr. Robert Creed; Dr. Bryan Brown; Dr. James Skelton</p>
+<p><img src="images/9929935.jpg" align="right" height="120"/> While
+pursuing my Master’s degree, I studied aspects of the cleaning symbiosis
+between crayfish (<em>Cambarus</em> spp.) and branchiobdellid worms
+(Annelida: Branchiobdellidae). My research specifically sought to
+determine why two co-existing crayfish (<em>Cambarus chasmodactylus</em>
+and <em>Orconectes cristavarius</em>) differ in the number of worms
+(<em>Cambarincola ingens</em>) they host.</p>
+<p>Collaborators: Dr. Robert Creed; Dr. Bryan Brown; Dr. James
+Skelton</p>
 </div>
-<div id="whooping-crane-direct-autumn-release-internship" class="section level3">
+<div id="whooping-crane-direct-autumn-release-internship"
+class="section level3">
 <h3>Whooping Crane Direct Autumn Release Internship</h3>
-<p><img src="images/1797666.jpg" align="right" height="100"/> Working in collaboration with the International Crane Foundation and the US Fish &amp; Wildlife Service, I spent 6 months (2009) in Baraboo and Necedah, WI isolation-rearing whooping crane chicks for release.</p>
+<p><img src="images/1797666.jpg" align="right" height="100"/> Working
+in collaboration with the International Crane Foundation and the US Fish
+&amp; Wildlife Service, I spent 6 months (2009) in Baraboo and Necedah,
+WI isolation-rearing whooping crane chicks for release.</p>
 </div>
 <div id="tropical-stream-independent-research" class="section level3">
 <h3>Tropical Stream Independent Research</h3>
-<p><img src="images/7029829.jpg" align="right" height="100"/> As an undergraduate, I designed and conducted a 5-month (2008) field study on macroinvertebrate communities in Ecuadorian tropical forest streams. Based out of the Estación Biológica Bilsa in northwestern Ecuador, I examined whether the forest type (primary forest vs. secondary regrowth) adjacent to perennial streams affected aquatic macroinvertebrate community structure and diversity.</p>
+<p><img src="images/7029829.jpg" align="right" height="100"/> As an
+undergraduate, I designed and conducted a 5-month (2008) field study on
+macroinvertebrate communities in Ecuadorian tropical forest streams.
+Based out of the Estación Biológica Bilsa in northwestern Ecuador, I
+examined whether the forest type (primary forest vs. secondary regrowth)
+adjacent to perennial streams affected aquatic macroinvertebrate
+community structure and diversity.</p>
 </div>
-<div id="boston-university-bat-lab-summer-research-assistant" class="section level3">
+<div id="boston-university-bat-lab-summer-research-assistant"
+class="section level3">
 <h3>Boston University Bat Lab Summer Research Assistant</h3>
-<p><img src="images/8889861.jpg" align="right" height="120"/> I spent the summer of 2006 assisting <a href="https://www.linkedin.com/in/louise-allen-37b3214b/">Louise Allen</a> (PhD, Boston U.) with her dissertation research on Brazilian free-tailed bats (<em>Tadarida brasiliensis</em>). Research was conducted near Austin, TX through the BU Bat Lab.</p>
+<p><img src="images/8889861.jpg" align="right" height="120"/> I spent
+the summer of 2006 assisting <a
+href="https://www.linkedin.com/in/louise-allen-37b3214b/">Louise
+Allen</a> (PhD, Boston U.) with her dissertation research on Brazilian
+free-tailed bats (<em>Tadarida brasiliensis</em>). Research was
+conducted near Austin, TX through the BU Bat Lab.</p>
 </div>
 </div>
 

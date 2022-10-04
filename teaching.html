@@ -13,7 +13,7 @@
 
 <title>teaching.knit</title>
 
-<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
@@ -146,11 +146,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -352,12 +356,6 @@ div.tocify {
      
   </a>
 </li>
-<li>
-  <a href="https://twitter.com/farrellkj2">
-    <span class="fa fa-twitter"></span>
-     
-  </a>
-</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -376,19 +374,39 @@ div.tocify {
 <div id="large-enrollment-lab-courses" class="section level2">
 <h2>Large-Enrollment Lab Courses</h2>
 <p><em>Fall, Spring, and Summer semesters since Fall 2019</em></p>
-<p>As the undergraduate lab coordinator for the Odum School of Ecology, I develop activities for, and coordinate graduate teaching assistants’ instruction of, our large-enrollment lab courses. Labs enroll over 1200 students per year.</p>
+<p>As the undergraduate lab coordinator for the Odum School of Ecology,
+I develop activities for, and coordinate graduate teaching assistants’
+instruction of, our large-enrollment lab courses. Labs enroll over 1200
+students per year.</p>
 <ul>
-<li><p>Ecological Basis of Environmental Issues (<strong>ECOL 1000L</strong>): An introductory, non-majors lab that introduces students to core concepts in ecological principles and how human activities affect the environment. Throughout the semester, students practice communicating about scientific information, visualizing data, and critically evaluating moral and ethical issues associated with the environmental challenges we face.</p></li>
-<li><p>Ecology Lab (<strong>ECOL 3500L</strong>) and Ecology Lab- Honors (<strong>ECOL 3505L</strong>): An upper-level lab for STEM majors that reinforces concepts from the co-requisite ecology lecture using hands-on activities. Students also regularly practice communicating scientific knowledge, analyzing and visualizing data, and designing and implementing ecological field studies.</p></li>
+<li><p>Ecological Basis of Environmental Issues (<strong>ECOL
+1000L</strong>): An introductory, non-majors lab that introduces
+students to core concepts in ecological principles and how human
+activities affect the environment. Throughout the semester, students
+practice communicating about scientific information, visualizing data,
+and critically evaluating moral and ethical issues associated with the
+environmental challenges we face.</p></li>
+<li><p>Ecology Lab (<strong>ECOL 3500L</strong>) and Ecology Lab- Honors
+(<strong>ECOL 3505L</strong>): An upper-level lab for STEM majors that
+reinforces concepts from the co-requisite ecology lecture using hands-on
+activities. Students also regularly practice communicating scientific
+knowledge, analyzing and visualizing data, and designing and
+implementing ecological field studies.</p></li>
 </ul>
 </div>
 <div id="interdisciplinary-field-program" class="section level2">
 <h2>Interdisciplinary Field Program</h2>
 <p><em>Summer 2016, Summer 2018-present</em></p>
-<p>The UGA Interdisciplinary Field Program (<a href="https://ifp.uga.edu/">IFP</a>) is an 8-week cross-country “summer semester on wheels” in which students are enrolled in concurrent geology, anthropology, and ecology courses. As an ecology instructor, I develop and teach place-based lessons for two courses:</p>
+<p>The UGA Interdisciplinary Field Program (<a
+href="https://ifp.uga.edu/">IFP</a>) is an 8-week cross-country “summer
+semester on wheels” in which students are enrolled in concurrent
+geology, anthropology, and ecology courses. As an ecology instructor, I
+develop and teach place-based lessons for two courses:</p>
 <ul>
-<li><p>Ecological Basis of Environmental Issues- Honors section + lab (<strong>ECOL 1000H &amp; 1000L</strong>)</p></li>
-<li><p>Ecology of North America (<strong>ECOL 4160/4160L</strong>)</p></li>
+<li><p>Ecological Basis of Environmental Issues- Honors section + lab
+(<strong>ECOL 1000H &amp; 1000L</strong>)</p></li>
+<li><p>Ecology of North America (<strong>ECOL
+4160/4160L</strong>)</p></li>
 </ul>
 <p align="center">
 <img width="554" height="216" src="images/ifp.png" align="center">
@@ -397,66 +415,129 @@ div.tocify {
 <div id="additional-courses" class="section level2">
 <h2>Additional Courses</h2>
 <ul>
-<li><p>Graduate Teaching Seminar (<strong>GRSC 7770</strong>): Each fall since 2019, I teach a course for first-time graduate teaching assistants in ecology and related disciplines. The course focuses on implementing evidence-based teaching practices, developing lessons using backward design principles, and inclusive and reflective teaching.</p></li>
-<li><p>Ecology Senior Seminar (<strong>ECOL 4950</strong>): From Spring 2020-Fall 2021, I taught the capstone seminar course for undergraduate Ecology majors at UGA. The seminar focuses on student-led discussions of cutting-edge topics in the ecological literature, and communicating their ecological expertise by <a href="https://wikiedu.org/blog/2021/06/08/sharing-ecological-expertise-through-wikipedia/">editing Wikipedia pages</a>.</p></li>
-<li><p>Ecology Research Lab (<strong>ECOL 3510</strong>): In Summer 2021, I designed and taught a course-based undergraduate research experience (CURE) to immerse students in the process of conducting ecological research. Activities focused on student-driven research using publically-available datasets from the National Ecological Observatory network (<a href="https://www.neonscience.org/">NEON</a>), as well as implementing best practices in collaborative and reproducible research.</p></li>
+<li><p>Ecology Research Lab (<strong>ECOL 3510</strong>): In Summer
+2021, I designed and taught a course-based undergraduate research
+experience (CURE) to immerse students in the process of conducting
+ecological research. Activities focused on student-driven research using
+publically-available datasets from the National Ecological Observatory
+network (<a href="https://www.neonscience.org/">NEON</a>), as well as
+implementing best practices in collaborative and reproducible
+research.</p></li>
+<li><p>Ecology Senior Seminar (<strong>ECOL 4950</strong>): From Spring
+2020-Fall 2021, I taught the capstone seminar course for undergraduate
+Ecology majors at UGA. The seminar focuses on student-led discussions of
+cutting-edge topics in the ecological literature, and communicating
+their ecological expertise by <a
+href="https://wikiedu.org/blog/2021/06/08/sharing-ecological-expertise-through-wikipedia/">editing
+Wikipedia pages</a>.</p></li>
+<li><p>Graduate Teaching Seminar (<strong>GRSC 7770</strong>): Each fall
+since 2019, I teach a course for first-time graduate teaching assistants
+in ecology and related disciplines. The course focuses on implementing
+evidence-based teaching practices, developing lessons using backward
+design principles, and inclusive and reflective teaching.</p></li>
 </ul>
 <div id="graduate-teaching-assistantships" class="section level3">
 <h3>Graduate Teaching Assistantships</h3>
 <ul>
-<li>Freshwater Ecosystems Lab: In Fall 2015 and 2016, I taught hands-on labs to collect and analyze data from local lakes and streams. As part of my teaching assistantship, I restructured the student lab manual and developed a teaching assistant manual.</li>
+<li><p>Ichthyology Lab: In Fall 2014, I taught labs that focused on
+inquiry-based explorations of fish taxonomy, morphology, and ecology
+using preserved specimens. As part of that role, I also developed a
+student lab book for use in subsequent semesters.</p></li>
+<li><p>Freshwater Ecosystems Lab: In Fall 2015 and 2016, I taught
+hands-on labs to collect and analyze data from local lakes and streams.
+As part of my teaching assistantship, I restructured the student lab
+manual and developed a teaching assistant manual.</p></li>
 </ul>
 <p align="center">
 <img width="480" height="165" src="images/limno.png" align="center">
 </p>
-<ul>
-<li>Ichthyology Lab: In Fall 2014, I taught labs that focused on inquiry-based explorations of fish taxonomy, morphology, and ecology using preserved specimens. As part of that role, I also developed a student lab book for use in subsequent semesters.</li>
-</ul>
 </div>
 </div>
 </div>
 <div id="macrosystems-eddie" class="section level1">
 <h1>Macrosystems EDDIE</h1>
-<p><img src="images/macroeddie.png" align="right" height="150"/> As part of my postdoctoral work, I helped develop the first four teaching modules in the <a href="www.MacrosystemsEDDIE.org">Macrosystems EDDIE</a> (Environmental Data-Driven Inquiry &amp; Exploration) project. These flexible, ready-to-use modules can be used alone or as a series to bring macrosystems ecology concepts and simulation modeling into undergraduate science classes.</p>
-<p>As part of module development, we assessed how effectively each module achieved desired learning outcomes through volunteer classrooms whose students completed paired pre- and post-module assessments.</p>
+<p><img src="images/macroeddie.png" align="right" height="150"/> As
+part of my postdoctoral work, I helped develop the first four teaching
+modules in the <a
+href="https://serc.carleton.edu/eddie/macrosystems/index.html">Macrosystems
+EDDIE</a> (Environmental Data-Driven Inquiry &amp; Exploration) project.
+These flexible, ready-to-use modules can be used alone or as a series to
+bring macrosystems ecology concepts and simulation modeling into
+undergraduate science classes.</p>
+<p>As part of module development, we assessed how effectively each
+module achieved desired learning outcomes through volunteer classrooms
+whose students completed paired pre- and post-module assessments.</p>
 <p>Key findings include:</p>
 <ul>
-<li><p>Working with hands-on modules helps build students’ computational literacy and empower students with the skills to ask complex ecological questions (Farrell &amp; Carey 2018)</p></li>
-<li><p>Macrosystems EDDIE modules increased students’ proficiency &amp; confidence working with ecosystem models and their use of systems thinking (Carey et al. 2020)</p></li>
-<li><p>Macrosystems EDDIE modules increased students’ability to define, interpret, and apply key concepts in macrosystems ecology (Hounshell et al. 2021)</p></li>
+<li><p>Working with hands-on modules helps build students’ computational
+literacy and empower students with the skills to ask complex ecological
+questions (Farrell &amp; Carey 2018)</p></li>
+<li><p>Macrosystems EDDIE modules increased students’ proficiency &amp;
+confidence working with ecosystem models and their use of systems
+thinking (Carey et al. 2020)</p></li>
+<li><p>Macrosystems EDDIE modules increased students’ability to define,
+interpret, and apply key concepts in macrosystems ecology (Hounshell et
+al. 2021)</p></li>
 </ul>
 </div>
 <div id="pedagogical-training" class="section level1">
 <h1>Pedagogical Training</h1>
 <div id="teaching-certificate" class="section level2">
 <h2>Teaching Certificate</h2>
-<p>While pursuing my PhD, I also completed the University of Georgia <a href="https://grad.uga.edu/index.php/current-students/professional-development/university-teaching/">Interdisciplinary Certificate in University Teaching</a> (2017).</p>
-<p>As part of that program, I completed 9 hours of coursework in pedagogy and course design:</p>
+<p>While pursuing my PhD, I also completed the University of Georgia
+Interdisciplinary Certificate in University Teaching (2017).</p>
+<p>As part of that program, I completed 9 hours of coursework in
+pedagogy and course design:</p>
 <ul>
-<li><p>Graduate Seminar for Teaching and Laboratory Assistants (GRSC 7770), Fall 2013</p></li>
-<li><p>Designing Courses for Significant Learning (GRSC 7900), Fall 2014</p></li>
-<li><p>Using Technology in the College Classroom (EDHI 9040), Spring 2015</p></li>
+<li><p>Graduate Seminar for Teaching and Laboratory Assistants (GRSC
+7770), Fall 2013</p></li>
+<li><p>Designing Courses for Significant Learning (GRSC 7900), Fall
+2014</p></li>
+<li><p>Using Technology in the College Classroom (EDHI 9040), Spring
+2015</p></li>
 </ul>
-<p><img src="images/img-2087-edited.jpg" align="right" height="220"/> I also designed and carried out scholarship of teaching and learning (SoTL) study, “Assessing student preparedness for writing in the sciences”, to assess how prepared upper-level undergraduate and first-semester graduate students were for writing scientific-style reports.</p>
-<p>Through a combination of pre- and post-assignment student surveys, I assessed whether student perceptions of their preparedness matched their performance on writing assignments, and if not, if and how I could develop scaffolding activities to improve their writing outcomes.</p>
-<p>I presented the results of my project at the 2016 University System of Georgia Teaching and Learning Conference in Athens, GA.</p>
+<p><img src="images/img-2087-edited.jpg" align="right" height="220"/>
+I also designed and carried out scholarship of teaching and learning
+(SoTL) study, “Assessing student preparedness for writing in the
+sciences”, to assess how prepared upper-level undergraduate and
+first-semester graduate students were for writing scientific-style
+reports.</p>
+<p>Through a combination of pre- and post-assignment student surveys, I
+assessed whether student perceptions of their preparedness matched their
+performance on writing assignments, and if not, if and how I could
+develop scaffolding activities to improve their writing outcomes.</p>
+<p>I presented the results of my project at the 2016 University System
+of Georgia Teaching and Learning Conference in Athens, GA.</p>
 </div>
 </div>
 <div id="teaching-awards-recognition" class="section level1">
 <h1>Teaching Awards &amp; Recognition</h1>
 <ul>
-<li><p>2022: Nominee, University of Georgia Creative Teaching Award</p></li>
-<li><p>2021: Dean’s Award, Odum School of Ecology, University of Georgia</p>
+<li><p>2022: Nominee, University of Georgia Creative Teaching
+Award</p></li>
+<li><p>2021: Dean’s Award, Odum School of Ecology, University of
+Georgia</p>
 <ul>
-<li>Given “to honor professional achievement and outstanding creativity and innovation in service, research or teaching”</li>
+<li>Given “to honor professional achievement and outstanding creativity
+and innovation in service, research or teaching”</li>
 </ul></li>
-<li><p>2021 Outstanding Faculty Instructor of the Year, Odum School of Ecology, University of Georgia</p>
+<li><p>2021 Outstanding Faculty Instructor of the Year, Odum School of
+Ecology, University of Georgia</p>
 <ul>
-<li>“Farrell was honored for exceptional creativity and care in coordinating the pivot of ecology’s instructional laboratory program to online and hybrid format this past year, and for outstanding curricular development and mentoring of graduate student teaching assistants in ecology” (<a href="https://www.ecology.uga.edu/odum-school-2021-spring-fling/">OSE News</a>)</li>
+<li>“Farrell was honored for exceptional creativity and care in
+coordinating the pivot of ecology’s instructional laboratory program to
+online and hybrid format this past year, and for outstanding curricular
+development and mentoring of graduate student teaching assistants in
+ecology” (<a
+href="https://www.ecology.uga.edu/odum-school-2021-spring-fling/">OSE
+News</a>)</li>
 </ul></li>
-<li><p>2017: Ecology Nominee, Excellence in Teaching Award, University of Georgia</p></li>
-<li><p>2016: Outstanding Teaching Assistant Award, University of Georgia</p></li>
-<li><p>2016: Distinguished Graduate Student Teaching Award, Odum School of Ecology, University of Georgia</p></li>
+<li><p>2017: Ecology Nominee, Excellence in Teaching Award, University
+of Georgia</p></li>
+<li><p>2016: Outstanding Teaching Assistant Award, University of
+Georgia</p></li>
+<li><p>2016: Distinguished Graduate Student Teaching Award, Odum School
+of Ecology, University of Georgia</p></li>
 </ul>
 </div>
 
