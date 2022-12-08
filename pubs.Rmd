@@ -75,12 +75,13 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>  
 
 ## Published Teaching Modules  
+Each module below was reviewed and accepted into the National Association of Geoscience Teachers *On the Cutting Edge* [Exemplary Teaching Activity collection](https://serc.carleton.edu/teachearth/activity_review.html)
+
 * Carey, C.C., **K.J. Farrell**, & A.G. Hounshell. 2020. Macrosystems EDDIE Module 4: Macro-Scale Feedbacks. *Environmental Data Initiative*. DOI: [10.6073/pasta/c2cabba0b755d852dabe74d181e2dc28](https://doi.org/10.6073/pasta/c2cabba0b755d852dabe74d181e2dc28)
 
 * **Farrell, K.J.**, & C.C. Carey. 2019. Macrosystems EDDIE Module 3: Teleconnections. *Environmental Data Initiative*. DOI: [10.6073/pasta/89ffc527545f581290a7c19c5cbb7163](https://doi.org/10.6073/pasta/89ffc527545f581290a7c19c5cbb7163)
 
 * Carey, C.C., & **K.J. Farrell**. 2019. Macrosystems EDDIE Module 2: Cross-Scale Interactions. *Environmental Data Initiative*. DOI: [10.6073/pasta/28f233002e2e1b6c8d412992e378358f](https://doi.org/10.6073/pasta/28f233002e2e1b6c8d412992e378358f)
-    + Reviewed and accepted into the National Association of Geoscience Teachers *On the Cutting Edge* [Exemplary Teaching Activity collection](https://serc.carleton.edu/teachearth/activity_review.html)
 
 * Carey, C.C., S. Aditya, K. Subratie, R. Figueiredo, & **K.J. Farrell**. 2018. Macrosystems EDDIE Module 1: Climate Change Effects on Lake Temperatures. *Environmental Data Initiative*. DOI: [10.6073/pasta/f7c4c245f495d859dcaa4ff6794d1fac](https://doi.org/10.6073/pasta/f7c4c245f495d859dcaa4ff6794d1fac)  
 <br>
