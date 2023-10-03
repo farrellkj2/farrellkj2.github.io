@@ -13,7 +13,7 @@
 
 <title>Hello!</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.24/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -180,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -189,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -294,15 +287,24 @@ $(document).ready(function () {
 </div>
 
 
-<p><img src="images/Farrell_head.jpg" align="left" height="200"/> My
+<p><img src="images/kf_round_small.jpg" align="left" height="200"/> My
 name is Kait (she/her), and I am an ecologist and educator.</p>
-<p>As the undergraduate ecology lab coordinator for the <a
-href="http://ecology.uga.edu/">Odum School of Ecology</a> at the
-University of Georgia, I develop hands-on lab activities to engage both
-science majors and non-majors with ecological concepts and skills. You
-can learn more about the courses I teach and coordinate by visiting the
-<a href="https://farrellkj2.github.io/teaching.html">Teaching</a>
-tab.</p>
+<p>I am currently a lecturer in the <a
+href="http://ecology.uga.edu/">Odum School of Ecology</a> at the <a
+href="https://uga.edu/">University of Georgia</a> where I develop and
+teach courses that train students in data literacy through the lens of
+ecological principles and practices. You can learn more about my courses
+by visiting the <a
+href="https://farrellkj2.github.io/teaching.html">Teaching</a> tab.</p>
+<p>I also serve as the UGA Director of Domestic Field Study. <a
+href="https://dfs.uga.edu/">Domestic Field Study (DFS)</a> programs
+integrate place-based, active, and experiential learning through
+site-specific learning opportunities throughout the United States. These
+faculty-led, course-based programs provide immersive, off-campus
+learning experiences for students across UGA. As Director, I support
+current program directors and facilitate the development of new study
+away programs within the US to expand opportunities for UGA students to
+engage deeply with place-based learning.</p>
 <p>My research background is in freshwater ecosystem ecology. I earned
 my Ph.D. in Ecology in May 2017 from the University of Georgia, and from
 2017-2019, I was a postdoctoral associate at Virginia Tech, where I
@@ -314,7 +316,7 @@ href="https://farrellkj2.github.io/pubs.html">Publications</a>
 pages.</p>
 <hr />
 <center>
-<p><em>Site last updated: 4 October 2022</em></p>
+<p><em>Site last updated: 3 October 2023</em></p>
 Webpage developed using <a
 href="https://github.com/privefl/rmarkdown-website-template"
 target="_blank">rmarkdown website template</a> by <a
