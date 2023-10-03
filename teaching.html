@@ -13,7 +13,7 @@
 
 <title>teaching.knit</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.24/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
@@ -29,14 +29,14 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -183,8 +183,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -192,16 +192,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -371,13 +364,45 @@ div.tocify {
 
 <div id="course-development-instruction" class="section level1">
 <h1>Course Development &amp; Instruction</h1>
-<div id="large-enrollment-lab-courses" class="section level2">
-<h2>Large-Enrollment Lab Courses</h2>
-<p><em>Fall, Spring, and Summer semesters since Fall 2019</em></p>
-<p>As the undergraduate lab coordinator for the Odum School of Ecology,
-I develop activities for, and coordinate graduate teaching assistants’
-instruction of, our large-enrollment lab courses. Labs enroll over 1200
-students per year.</p>
+<div id="teaching-in-ose" class="section level2">
+<h2>Teaching in OSE</h2>
+<ul>
+<li><p>Ecological Data Literacy (<strong>ECOL 3550</strong>): In Fall
+2023, I am redesigning and teaching a course to introduce undergraduate
+students to principles of data science through an ecological
+lens.</p></li>
+<li><p>Ecology Research Lab (<strong>ECOL 3510</strong>): In Summer
+2021, I designed and taught a course-based undergraduate research
+experience (CURE) to immerse students in the process of conducting
+ecological research. Activities focused on student-driven research using
+publically-available datasets from the National Ecological Observatory
+network (<a href="https://www.neonscience.org/">NEON</a>), as well as
+implementing best practices in collaborative and reproducible
+research.</p></li>
+<li><p>Ecology Senior Seminar (<strong>ECOL 4950</strong>): Between
+Spring 2020 and Fall 2023, I have taught the capstone seminar course for
+undergraduate Ecology majors at UGA 6 times. The seminar focuses on
+student-led discussions of cutting-edge topics in the ecological
+literature, and communicating their ecological expertise by <a
+href="https://wikiedu.org/blog/2021/06/08/sharing-ecological-expertise-through-wikipedia/">editing
+Wikipedia pages</a>.</p></li>
+<li><p>Graduate Teaching Seminar (<strong>GRSC 7770</strong>): Each fall
+since 2019, I teach a course for first-time graduate teaching assistants
+in ecology and related disciplines. The course focuses on implementing
+evidence-based teaching practices, developing lessons using backward
+design principles, and inclusive and reflective teaching.</p></li>
+</ul>
+</div>
+<div id="large-enrollment-lab-coordination" class="section level2">
+<h2>Large-Enrollment Lab Coordination</h2>
+<p><em>Fall, Spring, and Summer semesters, Fall 2019 - Summer
+2023</em></p>
+<p>From 2019-2023, I worked as the undergraduate ecology lab coordinator
+for the Odum School of Ecology. As lab coordinator, I developed hands-on
+lab activities to engage both science majors and non-majors with
+ecological concepts and skills. I also trained and mentored graduate
+teaching assistants in their instruction of our large-enrollment lab
+courses.</p>
 <ul>
 <li><p>Ecological Basis of Environmental Issues (<strong>ECOL
 1000L</strong>): An introductory, non-majors lab that introduces
@@ -411,33 +436,10 @@ develop and teach place-based lessons for two courses:</p>
 <p align="center">
 <img width="554" height="216" src="images/ifp.png" align="center">
 </p>
-</div>
-<div id="additional-courses" class="section level2">
-<h2>Additional Courses</h2>
-<ul>
-<li><p>Ecology Research Lab (<strong>ECOL 3510</strong>): In Summer
-2021, I designed and taught a course-based undergraduate research
-experience (CURE) to immerse students in the process of conducting
-ecological research. Activities focused on student-driven research using
-publically-available datasets from the National Ecological Observatory
-network (<a href="https://www.neonscience.org/">NEON</a>), as well as
-implementing best practices in collaborative and reproducible
-research.</p></li>
-<li><p>Ecology Senior Seminar (<strong>ECOL 4950</strong>): From Spring
-2020-Fall 2021, I taught the capstone seminar course for undergraduate
-Ecology majors at UGA. The seminar focuses on student-led discussions of
-cutting-edge topics in the ecological literature, and communicating
-their ecological expertise by <a
-href="https://wikiedu.org/blog/2021/06/08/sharing-ecological-expertise-through-wikipedia/">editing
-Wikipedia pages</a>.</p></li>
-<li><p>Graduate Teaching Seminar (<strong>GRSC 7770</strong>): Each fall
-since 2019, I teach a course for first-time graduate teaching assistants
-in ecology and related disciplines. The course focuses on implementing
-evidence-based teaching practices, developing lessons using backward
-design principles, and inclusive and reflective teaching.</p></li>
-</ul>
 <div id="graduate-teaching-assistantships" class="section level3">
 <h3>Graduate Teaching Assistantships</h3>
+<p>While pursuing my PhD, I had the opportunity to teach three semesters
+as a graduate teaching assistant.</p>
 <ul>
 <li><p>Ichthyology Lab: In Fall 2014, I taught labs that focused on
 inquiry-based explorations of fish taxonomy, morphology, and ecology
@@ -454,8 +456,8 @@ manual and developed a teaching assistant manual.</p></li>
 </div>
 </div>
 </div>
-<div id="macrosystems-eddie" class="section level1">
-<h1>Macrosystems EDDIE</h1>
+<div id="macrosystems-eddie-development" class="section level1">
+<h1>Macrosystems EDDIE Development</h1>
 <p><img src="images/macroeddie.png" align="right" height="150"/> As
 part of my postdoctoral work, I helped develop the first four teaching
 modules in the <a

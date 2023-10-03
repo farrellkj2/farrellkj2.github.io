@@ -13,10 +13,19 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Course Development & Instruction
 
-## Large-Enrollment Lab Courses
-*Fall, Spring, and Summer semesters since Fall 2019* 
+## Teaching in OSE
+* Ecological Data Literacy (**ECOL 3550**): In Fall 2023, I am redesigning and teaching a course to introduce undergraduate students to principles of data science through an ecological lens.
 
-As the undergraduate lab coordinator for the Odum School of Ecology, I develop activities for, and coordinate graduate teaching assistants' instruction of, our large-enrollment lab courses. Labs enroll over 1200 students per year.
+* Ecology Research Lab (**ECOL 3510**): In Summer 2021, I designed and taught a course-based undergraduate research experience (CURE) to immerse students in the process of conducting ecological research. Activities focused on student-driven research using publically-available datasets from the National Ecological Observatory network ([NEON](https://www.neonscience.org/)), as well as implementing best practices in collaborative and reproducible research. 
+
+* Ecology Senior Seminar (**ECOL 4950**): Between Spring 2020 and Fall 2023, I have taught the capstone seminar course for undergraduate Ecology majors at UGA 6 times. The seminar focuses on student-led discussions of cutting-edge topics in the ecological literature, and communicating their ecological expertise by [editing Wikipedia pages](https://wikiedu.org/blog/2021/06/08/sharing-ecological-expertise-through-wikipedia/).  
+
+* Graduate Teaching Seminar (**GRSC 7770**): Each fall since 2019, I teach a course for first-time graduate teaching assistants in ecology and related disciplines. The course focuses on implementing evidence-based teaching practices, developing lessons using backward design principles, and inclusive and reflective teaching.
+
+## Large-Enrollment Lab Coordination
+*Fall, Spring, and Summer semesters, Fall 2019 - Summer 2023* 
+
+From 2019-2023, I worked as the undergraduate ecology lab coordinator for the Odum School of Ecology. As lab coordinator, I developed hands-on lab activities to engage both science majors and non-majors with ecological concepts and skills. I also trained and mentored graduate teaching assistants in their instruction of our large-enrollment lab courses. 
 
 * Ecological Basis of Environmental Issues (**ECOL 1000L**): An introductory, non-majors lab that introduces students to core concepts in ecological principles and how human activities affect the environment. Throughout the semester, students practice communicating about scientific information, visualizing data, and critically evaluating moral and ethical issues associated with the environmental challenges we face.
 
@@ -35,14 +44,9 @@ The UGA Interdisciplinary Field Program ([IFP](https://ifp.uga.edu/)) is an 8-we
   <img width="554" height="216" src="./images/ifp.png" align="center">
 </p>
 
-## Additional Courses
-* Ecology Research Lab (**ECOL 3510**): In Summer 2021, I designed and taught a course-based undergraduate research experience (CURE) to immerse students in the process of conducting ecological research. Activities focused on student-driven research using publically-available datasets from the National Ecological Observatory network ([NEON](https://www.neonscience.org/)), as well as implementing best practices in collaborative and reproducible research. 
-
-* Ecology Senior Seminar (**ECOL 4950**): From Spring 2020-Fall 2021, I taught the capstone seminar course for undergraduate Ecology majors at UGA. The seminar focuses on student-led discussions of cutting-edge topics in the ecological literature, and communicating their ecological expertise by [editing Wikipedia pages](https://wikiedu.org/blog/2021/06/08/sharing-ecological-expertise-through-wikipedia/).  
-
-* Graduate Teaching Seminar (**GRSC 7770**): Each fall since 2019, I teach a course for first-time graduate teaching assistants in ecology and related disciplines. The course focuses on implementing evidence-based teaching practices, developing lessons using backward design principles, and inclusive and reflective teaching.
-
 ### Graduate Teaching Assistantships
+While pursuing my PhD, I had the opportunity to teach three semesters as a graduate teaching assistant.
+
 * Ichthyology Lab: In Fall 2014, I taught labs that focused on inquiry-based explorations of fish taxonomy, morphology, and ecology using preserved specimens. As part of that role, I also developed a student lab book for use in subsequent semesters.
 
 * Freshwater Ecosystems Lab: In Fall 2015 and 2016, I taught hands-on labs to collect and analyze data from local lakes and streams. As part of my teaching assistantship, I restructured the student lab manual and developed a teaching assistant manual. 
@@ -51,8 +55,7 @@ The UGA Interdisciplinary Field Program ([IFP](https://ifp.uga.edu/)) is an 8-we
   <img width="480" height="165" src="./images/limno.png" align="center">
 </p>
 
-
-# Macrosystems EDDIE
+# Macrosystems EDDIE Development
 <img src="./images/macroeddie.png" align="right" height="150"/>
 As part of my postdoctoral work, I helped develop the first four teaching modules in the [Macrosystems EDDIE](https://serc.carleton.edu/eddie/macrosystems/index.html) (Environmental Data-Driven Inquiry & Exploration) project. These flexible, ready-to-use modules can be used alone or as a series to bring macrosystems ecology concepts and simulation modeling into undergraduate science classes.
 
