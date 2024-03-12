@@ -2,7 +2,7 @@
 title: "Hello!"
 ---
 
-<img src="./images/kf_round_small.jpg" align="left" height="200"/>
+<img src="./images/KF_round_small.jpg" align="left" height="200"/>
 My name is Kait (she/her), and I am an ecologist and educator. 
 
 I am currently a lecturer in the [Odum School of Ecology](http://ecology.uga.edu/) at the [University of Georgia](https://uga.edu/) where I develop and teach courses that train students in data literacy through the lens of ecological principles and practices. You can learn more about my courses by visiting the [Teaching](https://farrellkj2.github.io/teaching.html) tab.
